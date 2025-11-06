@@ -1,4 +1,6 @@
 // server.js - Backend Express con MongoDB
+import dotenv from "dotenv";
+dotenv.config();
 import express from 'express';
 import cors from 'cors';
 import { MongoClient, ObjectId } from 'mongodb';
