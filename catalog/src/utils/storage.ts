@@ -1,7 +1,7 @@
 // src/utils/storage.ts
 import { Product } from '../types/shirt';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'catalogo-production-abc6.up.railway.app';
 
 // Función para comprimir imágenes de manera agresiva
 export async function comprimirImagen(imagenBase64: string, maxWidth: number = 600, calidad: number = 0.5): Promise<string> {
